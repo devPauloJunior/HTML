@@ -1,10 +1,16 @@
 "use strict";
 
-function valida(input) {
+export function valida(input) {
     const tipoDeInput = input.dataset.tipo;
+
+    if (validadores[tipoDeInput]) {
+        validadores[tipoDeInput](input);
+    }
 }
 
-const
+const validadores = {
+    datanascimento:input => validacaoDataNascimento(input)
+}
 
 function validacaoDataNascimento (input) {
     const dataRecebida = new Date(input.value);
