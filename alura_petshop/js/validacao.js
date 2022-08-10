@@ -1,10 +1,10 @@
 "use strict";
 
-const dataNascimento = document.querySelector('#nascimento');
+function valida(input) {
+    const tipoDeInput = input.dataset.tipo;
+}
 
-dataNascimento.addEventListener('blur', (evento) => {
-    validacaoDataNascimento(evento.target);
-})
+const
 
 function validacaoDataNascimento (input) {
     const dataRecebida = new Date(input.value);
