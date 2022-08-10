@@ -1,0 +1,124 @@
+/* RESET DE MARGIN E PADDING*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* BODY */
+body {
+    background-color: gray;
+}
+/* HEADER - SPAN - IMG */
+header {
+    background-color: white;
+    text-align: right;
+    border: 5px solid black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+header span {
+    margin: 0px 15px 0px 0px;
+}
+
+header span img {
+    width: 200px;
+    height: 200px;
+}
+/* NAV - UL - LI */
+nav {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+/* MAIN */
+main {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0px 0px 20px;
+    border: 2px solid #cbc7c6;
+    border-radius: 20px;
+    width: 50%;
+    height: 900px;
+    display: inline-block;
+}
+main h1 {
+    margin-top: 10px;
+}
+
+main p {
+    font-size: 20px;
+    margin: 15px 15px 0px 15px;
+    text-align: justify;
+}
+
+main span img {
+    margin-top: 10px;
+    width: 330px;
+    height: 330px;
+}
+
+/* DIV DAS DUAS SECTIONS */
+
+#divDasSections {
+    margin: 50px 20px 0px 20px;
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+}
+
+/* SECTION SERVIÇOS */
+.sectionMatriz {
+    text-align: center;
+    border: 2px solid #cbc7c6;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.sectionServico {
+    color: black;
+    background-color: white;
+    width: 95%;
+    height: 430px;
+}
+
+.sectionServico h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sectionImg {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.sectionDiv {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+}
+
+/* SECTION LOCALIZACAO */
+.sectionLocalizacao {
+    margin-top: 20px;
+    width: 95%;
+    height: 450px;
+}
+
+.sectionLocalizacao h2 {
+    color: white;
+    margin-top: 10px;
+}
+

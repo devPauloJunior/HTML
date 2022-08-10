@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Desafio das DIVs</title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+<div class="content">
+  <div class="topmenu">
+    <div class="right_"><a href="#">Sobre</a> | <a href="#">Contato</a></div>
+    <div id="date_">
+		<script>
+			date = new Date();
+			year = date.getFullYear();
+			month = date.getMonth() + 1;
+			day = date.getDate();
+			document.getElementById("date_").innerHTML = day + "/" + month + "/" + year;
+</script>
+
+</div>
+  </div>
+  <div id="submenu">
+    <form action="#">
+      <div class="searchb"><br/>
+        Procure na Web:
+        <input type="text" name="search" class="text" />
+        <input type="submit" value="OK" class="submit" />
+      </div>
+    </form>
+    Você não está logado! <a href="#">Entre</a> para ver suas mensagens!<br />
+    <a href="#">Entrar</a> or <a href="#">Inscrever</a>? </div>
+  <div class="bridge">
+    <div class="title">DR COMPUTADOR</div>
+    <div class="slogan">Vem pra melhor!</div>
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="#">HOME</a> | </li>
+      <li><a href="#">PRODUTOS</a> | </li>
+      <li><a href="#">DOWNLOADS</a> | </li>
+      <li><a href="#">ARQUIVOS</a> | </li>
+      <li><a href="#">SOBRE NÓS</a> | </li>
+      <li><a href="#">CONTATO</a></li>
+    </ul>
+  </div>
+  <div class="right">
+    <h2>Nossos Topicos:</h2>
+    <img src="./imagem/li.gif" alt="" /> <a href="#">A Empresa</a><br />
+    <img src="./imagem/li.gif" alt="" /> <a href="#">Nosso Laboratorio</a><br />
+    <img src="./imagem/li.gif" alt="" /> <a href="#">Curiosidades</a><br />
+    <img src="./imagem/li.gif" alt="" /> <a href="#">Downloads</a><br />
+    <hr />
+    <h2>O que há de novo?</h2>
+    Placert é uma ferramenta totalmente gratuita baseada em PHP e MySQL para publicar e manter artigos de notícias em um site. Integrar o sNews ao seu design existente é simples, mas você também pode usar o sNews por conta própria, como um sistema de gerenciamento de conteúdo simples. Composto por apenas um arquivo, o sNews é extremamente leve, muito fácil de instalar e fácil de usar através de uma interface web simples.
+    <hr />
+    <h2>Como utilizar?</h2>
+    Você pode colocar as funções fornecidas no script index.php em seu design existente ou pode usar o design já fornecido no pacote de download. O próprio Solucija é um excelente exemplo de um site dirigido por Placert.
+    <hr />
+    <h2>Links</h2>
+    <img src="imagem/li.gif" alt="" /> <a href="#">DR COMPUTADOR</a><br />
+    <img src="imagem/li.gif" alt="" /> <a href="#">Drivers e manuais</a><br />
+  </div>
+  <div class="center">
+    <h2><a href="#">A empresa</a></h2>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer euismod ante non diam. Sed eleifend odio sed quam. Sed vulputate, <a
+		href="#">turpis at tincidunt</a> porttitor, est elit consequat metus, non dignissim augue mauris quis arcu. Phasellus faucibus blandit eros. Curabitur porttitor ante non est. Maecenas dolor. Aenean egestas sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed suscipit, nisi sit amet pharetra malesuada, sem velit laoreet sem, vitae iaculis diam neque consequat est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tincidunt eros non quam. Mauris a magna sit amet libero accumsan auctor. Aenean nec urna non dui lobortis viverra.
+    <p class="date">Enviado por Avenir <img src="imagem/more.gif" alt="" /> <a href="#">Leia mais...</a> <img src="imagem/comment.gif" alt="" /> <a href="#">Comentário(2)</a> <img src="imagem/timeicon.gif" alt="" /> 21.02.</p>
+    <br />
+    <h2><a href="#">Laboratorio com alta tecnologia para Manutenção</a></h2>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Aliquam ornare diam iaculis nibh. Proin luctus, velit pulvinar ullamcorper nonummy, mauris enim eleifend urna, congue egestas elit lectus eu est. Fusce et odio sit amet erat ullamcorper accumsan.Proin luctus, velit pulvinar ullamcorper nonummy, mauris enim eleifend urna, congue egestas elit lectus eu est. Fusce et odio sit amet erat ullamcorper accumsan.
+    <p class="date">Enviado por Jack <img src="imagem/comment.gif" alt="" /> <a href="#">Comentário(8)</a> <img src="imagem/timeicon.gif" alt="" /> 12.04.</p>
+    <br />
+    <div class="boxad"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque </div>
+  </div>
+  <div class="footer">
+    <div class="padding"> &copy; Copyright Paulo Junior :: Design: Paulo Junior</a> | <a href="rss/">RSS Feed</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> and <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="#">Entrar</a> <br />
+      Photo courtesy of and copyright Free Range Stock, <a href="http://www.freerangestock.com/">www.freerangestock.com</a> </div>
+  </div>
+</div>
+</body>
+</html>

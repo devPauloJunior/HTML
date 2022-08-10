@@ -1,0 +1,70 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    max-width: 150px;
+    min-width: 50px;
+    margin: 20px 0px 20px 10px;
+}
+
+.header {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+} 
+
+/* CORPO DA PAGINA */
+.titulo01 {
+    text-align: center;
+    font-family: 'Heroes Assemble Outline Italic', Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}

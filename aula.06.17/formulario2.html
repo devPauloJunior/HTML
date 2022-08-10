@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+<header>
+    <span><img src="img/logoBlzinha.png" alt="Logo Blzinha"></span>
+</header>
+<form id="formulario" name="formulario" method="post" action="#" onsubmit="return valida_form(this)">
+    <center>
+    <table border="0">
+        <tr>
+            <td><label for="formNome" class="classLabels">Nome: </label></td>
+            <td><input type="text" name="formNome" id="formNome" class="classInput"></td>
+        </tr>
+        <tr>
+            <td><label for="formEndereco" class="classLabels">Endereço: </label></td>
+            <td><input type="text" name="formEndereco" id="formEndereco" class="classInput"></td>
+        </tr>
+        <tr>
+            <td><label for="formReclamacao" class="classLabels">Reclamação</label></td>
+            <td><textarea name="formReclamacao" id="formReclamacao" cols="30" rows="10" class="classInput"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="formData" class="classLabels">Data: </label></td>
+            <td>            <input type="text" name="formData" id="formData" disabled class="classInput"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="Enviar" class="classSubmit"></td>
+        </tr>
+    </table>
+    </center>
+</form>
+<footer>
+    <p>Todos os direitos reservados  &copy;</p>
+</footer>
+<script>
+var data = new Date();
+var dia = String(data.getDate()).padStart(2, '0');
+var mes = String(data.getMonth() + 1).padStart(2, '0');
+var ano = data.getFullYear();
+dataAtual = dia + '/' + mes + '/' + ano;
+console.log(dataAtual);
+document.getElementById("formData").value = dataAtual;
+</script>
+</body>
+</html>

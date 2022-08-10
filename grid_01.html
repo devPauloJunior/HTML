@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        #main01 {
+            border: 2px solid green;
+            width: 800px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+        }
+        #main02 {
+            border: 2px solid green;
+            width: 800px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 25%  1fr;
+        }
+        #main03 {
+            border: 2px solid green;
+            width: 800px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 25%;
+        }
+        div {
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <main id="main01">
+        <div>1</div>
+        <div>2</div>
+    </main>
+    <main id="main02">
+        <div>3</div>
+        <div>4</div>
+    </main>
+    <main id="main03">
+        <div>5</div>
+        <div>6</div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMA COM JAVASCRIPT</title>
+    <script>
+        function soma() {
+            a = "amontada valley".toUpperCase();
+            console.log(a);
+            var p01 = parseInt(document.querySelector("#parcela01").value);
+            var p02 = parseInt(document.querySelector("#parcela02").value);
+            var result01 = p01 + p02;
+            return document.querySelector("[name='resultado']").value = result01;
+        }
+    </script>
+</head>
+<body>
+    <h1>SOMA COM JAVASCRIPT</h1>
+    <form action="">
+        <input id="parcela01" type="text">
+        &nbsp;&nbsp;+&nbsp;
+        <input id="parcela02" type="text">
+        <input type="button" value="SOMA" onclick="soma();">
+        <input name="resultado" type="text">
+    </form>
+</body>
+</html>
