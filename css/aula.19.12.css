@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0pxs;
+    font-size: 9px;
+}
+
+header {
+    background-color: aqua; width: 100vw; height: 100vh;
+    position: relative;
+}
+
+main {
+    background-color: coral;
+    width: 100vw; height: 50vh;
+    position: relative;
+}
+
+.texto {
+    font-size: 10em;
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.imagem {
+    width: 100vw; height: 100vh;
+}
+
+.imagem2 {
+    width: 72px; height: 72px;
+    position: absolute;
+    top: 54%;
+    left: 18%;
+}
+
+.botao {
+    width: 8em; height: 5em;
+    font-size: 3em;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    background: none;
+}
+
+.imagem3 {
+    width: 100vw; height: 100vh;
+}
+
+.minha_div {
+    border-top: 5px red solid;
+    background-color: aliceblue;
+    width: 156px; height: 228px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
