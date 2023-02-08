@@ -6,45 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRID</title>
     <style>
-        #main01 {
-            border: 2px solid green;
-            width: 800px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: 1fr  1fr;
-        }
-        #main02 {
-            border: 2px solid green;
-            width: 800px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: 25%  1fr;
-        }
-        #main03 {
-            border: 2px solid green;
-            width: 800px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: 1fr 25%;
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
         div {
-            border: 2px solid black;
+            border: 2px solid gray;
         }
-
     </style>
 </head>
 <body>
-    <main id="main01">
-        <div>1</div>
-        <div>2</div>
+    <main class="container">
+        <div class="todos cidade retrato">1</div>
+        <div class="todos cidade natureza retrato">2</div>
+        <div class="todos cidade">3</div>
+        <div class="todos cidade natureza retrato">4</div>
+        <div class="todos cidade">5</div>
+        <div class="todos natureza">6</div>
+        <div class="todos cidade retrato">7</div>
+        <div class="todos cidade natureza">8</div>
+        <div class="todos retrato">9</div>
+        <div class="todos cidade natureza">10</div>
+        <div class="todos cidade retrato">11</div>
+        <div class="todos cidade">12</div>
     </main>
-    <main id="main02">
-        <div>3</div>
-        <div>4</div>
-    </main>
-    <main id="main03">
-        <div>5</div>
-        <div>6</div>
-    </main>
+    <footer>
+        <button onclick="altera_grid();">APLICAR GRID</button>
+        <!-- <button type="button" onclick="Mudarestado();">Mostrar / Esconder</button> -->
+        <br>
+        <a href="#" onclick="natureza();">Natureza</a>
+        <a href="#" onclick="cidade();">Cidade</a>
+        <a href="#" onclick="retrato();">Retrato</a>
+        <a href="#" onclick="todos();">Todos</a>
+    </footer>
+    <script>
+        function altera_grid() {
+            var elemento_container = document.querySelector(".container");
+            elemento_container.style.cssText = "display: grid; grid: repeat(4, 150px) / repeat(3, 1fr);"
+        }
+        function natureza() {
+            const elemento_display = document.querySelectorAll(".cidade");
+
+            for (var i = 0; i < elemento_display.length; i++) {
+                elemento_display[i].style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
