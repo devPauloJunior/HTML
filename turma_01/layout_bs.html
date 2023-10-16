@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout BS</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/layout_bs.css">
+</head>
+
+<body>
+    <!-- Aplicando CONTAINER, CONTAINER-FLUID -->
+    <header class="container-fluid bg-light">
+        <h1>Adventure Travel</h1>
+    </header>
+    <hr>
+
+    <!-- Aplicando CONTAINER- SM, MD, LG, XL e XXL -->
+    <section class="container-md bg-secondary">
+        <h2>Sua viagem em boas mãos!</h2>
+    </section>
+    <section class="container-lg bg-success">
+        <h2>Levamos você aos seus melhores sonhos!</h2>
+    </section>
+    <section class="container-xxl bg-info">
+        <h2>Vem viajar com a Adventure Travel!</h2>
+    </section>
+
+    <!-- Aplicando nosso GRID -->
+    <section class="container">
+        <div class="row row-cols-1 border">
+            <h3 class="col">Promoção do Dia</h3>
+            <p class="col text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ullam
+                consequatur non
+                totam.</p>
+        </div>
+    </section>
+
+    <!-- Aplicando a ORDEM dos ITENS -->
+    <section class="container">
+        <div class="row">
+            <h4 class="col order-2">3</h4>
+            <span class="col order-3">4</span>
+            <p class="col order-0">1</p>
+            <div class="col order-1">2</div>
+        </div>
+    </section>
+
+    <!-- Aplicando GX e GY -->
+    <section class="container">
+        <div class="row border border-dark gy-5 ">
+            <span class="border border-dark">10</span>
+            <span class="border border-dark">11</span>
+            <span class="border border-dark">12</span>
+        </div>
+        <div class="row border border-dark gy-2">
+            <span>13</span>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="row border border-dark gy-5">
+            <span>14</span>
+            <div>15</div>
+            <span>16</span>
+        </div>
+    </section>
+</body>
+
+</html>

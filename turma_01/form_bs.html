@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/form_bs.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/img_01.png" class="d-block w-100" alt="Manoel Gomes">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img_02.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img_03.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/img_03.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img_02.png" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img_01.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+    <section class="container mt-5">
+        <form action="">
+            <div class="row mb-3">
+                <label class="col-md-2 form-label fw-bold" for="nome">
+                    <i class="bi bi-person fs-4 text-dark"></i>
+                    Nome:
+                </label>
+                <input class="col form-control" type="text" name="nome" id="nome" placeholder="Seu nome aqui!">
+            </div>
+            <div class="row mb-3">
+                <label class="col-md-2 form-label fw-bold" for="senha">
+                    <i class="bi bi-lock fs-4 text-dark"></i>
+                    Senha:
+                </label>
+                <input class="col form-control" type="password" name="senha" id="senha" placeholder="Sua senha aqui!">
+            </div>
+            <div class="row mb-3 justify-content-center">
+                <input class="col-md-3 btn btn-lg btn-outline-secondary" type="button" value="Acessar">
+            </div>
+        </form>
+    </section>
+    <section class="container">
+        <label class="form-label fs-4 fw-bold" for="">Valor a par: </label>
+        <div class="input-group">
+            <span class="input-group-text">R$</span>
+            <input class="form-control " type="text" name="" id="">
+            <span class="input-group-text">,00</span>
+        </div>
+    </section>
+    <section class="container mt-3">
+        <div class="btn-group" role="group">
+            <button class="btn btn-secondary">01</button>
+            <button class="btn btn-secondary">02</button>
+            <div class="btn-group">
+                <button id="drop" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">Link Down</button>
+                <ul class="dropdown-menu" aria-labelledby="drop">
+                    <li><a class="dropdown-item" href="#">Link 01</a></li>
+                    <li><a class="dropdown-item" href="#">Link 02</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

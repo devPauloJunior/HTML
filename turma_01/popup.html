@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Validation</title>
+    <link rel="preload" href="css/popup.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+    <header class="header__nav">
+        <h1 id="header__h1">Digital Trends</h1>
+        <ul id="header__ul">
+            <li>Mundo Digital</li>
+            <li>
+                <button  class="header__li" onclick="meuModal();">Contato</button>
+            </li>
+        </ul>
+        <div id="modal">
+        <section id="modal__container">
+            <div class="modal__header">
+                <span>Entre em contato com a gente.</span>
+                <button type="button"  onclick="meuModalFechar();">&times;</button>
+            </div>
+            <div class="modal__body">
+                <input class="modal__item" type="text" placeholder="Seu nome aqui!">
+                <textarea class="modal__item" name="" id="" cols="20" rows="5" placeholder="Sua duvida ou sugestão!"></textarea>
+            </div>
+            <div class="modal__footer">
+                <button type="button">Enviar</button>
+                <button type="button" onclick="meuModalFechar();">Fechar</button>
+            </div>
+        </section>
+        </div>
+    </header>
+    <header class="header__banner">
+        <p id="item01">Nós estamos esperando por você no Digital</p>
+        <button id="item02" onclick="meuPopup();" class="popup__button">Vamos decidir isso juntos!
+        <p class="popup__texto">Fundada no Chile em 1979, a Digital Trend é uma das maiores empresas digital do mundo, com 1 milhão de clientes, dos quais 110 mil no Brasil. A empresa começou a investir no Brasil em 2007, quando adquiriu parte das atividades da finlandesa Store, que havia adquirido a empresa paranaense Inpacel. Atualmente a Digital Trends possui quatro predios no Brasil, com capacidade para produzir 1,52 milhão de trabalhos digitais por ano.</p></button>
+        <address id="item03">
+            <span class="material-symbols-outlined">
+                call
+            </span>
+            <span>(88)91718.1920</span>
+        </address>
+        <img id="item04" class="img__banner" src="images/banner.png
+        " alt="">
+    </header>
+    <main class="main__container">
+        <h2>A Melhor agencia <strong>Digital do Brasil</strong></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptas at!</p>
+        <p>Lorem ipsum <em>dolor sit amet consectetur adipisicing elit.</em> Facilis quam incidunt
+            aspernatur suscipit! Officia sed eaque nemo laudantium quisquam!</p>
+        <paulo>
+            <img class="img__figure" src="images/office.png" alt="">
+        </paulo>
+        <section class="section__main">
+            <h2>Por favor, dê uma olhada em nossos projetos Digital Trends.</h2>
+            <figure>
+                <img class="img__section" src="images/project-image01.jpg" alt="nossa empresa!" title="nossa empresa">
+                <img class="img__section" src="images/project-image02.jpg" alt="">
+                <img class="img__section" src="images/project-image04.jpg" alt="">
+                <img class="img__section" src="images/project-image05.jpg" alt="">
+            </figure>
+        </section>
+        <section>
+            <img src="images/female-avatar.png" alt="">
+            <h3>Nossos Clientes</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus ab est quisquam provident
+                accusantium. Ab sunt quibusdam totam itaque.</p>
+        </section>
+    </main>
+    <footer>
+        <h2>Fazemos apenas <strong>Criatividade</strong> com <strong>Paixão</strong></h2>
+        <address>
+            <span>Contatos:</span>
+            <span><em>contato@digitaltrens.com.br</em></span>
+        </address>
+        <address>
+            <span>Estamos na</span>
+            <span>Av. Lúcio Costa 1422, Barra dos Anzois - RJ, Brasil.</span>
+        </address>
+        <span>&copy; Todos os Direitos Reservados 2022</span>
+        <span>Desenvolvido por: SEU NOME</span>
+        <address>
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+            <span class="material-symbols-outlined">
+                flutter_dash
+            </span>
+            <span class="material-symbols-outlined">
+                sports_baseball
+            </span>
+        </address>
+    </footer>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>
