@@ -18,15 +18,16 @@
         </thead>
         <tbody>
             <tr>
-                <td>
-                    <form action="">
+                <td bgcolor="lightgray">
+                    <form method="post" action="./home.html">
                         <label for="input_nome">
-                            Nome de Usuário: <input id="input_nome" type="text">
+                            Nome de Usuário: <input id="input_nome" name="input_nome" type="text">
                         </label>
                         <label for="input_pass">
-                            Informe sua senha: <input id="input_pass" type="password">
+                            Informe sua senha: <input id="input_pass" name="input_pass" type="password">
                         </label>
-                        <input type="button" id="input_button" value="Enviar">
+                        <textarea name="text_mensagem" id="text_mensagem" cols="30" rows="10">Texto aqui</textarea>
+                        <button type="submit">Enviar</button>
                     </form>
                 </td>
             </tr>
