@@ -1,0 +1,10 @@
+* { margin: 0px; padding: 0px; }
+
+h1 { background-color: green; color: blue; }
+
+p { font-size: 32px; }
+
+.tamanho { height: 150px; width: 150px; }
+
+.comportamento { display: inline-block; }
+
