@@ -18,3 +18,7 @@ body { font-size: 1em; font-family: 'Trebuchet MS', 'Lucida Sans',  sans-serif; 
 .postagem { padding: 20px; margin-bottom: 20px; background-color: #dfe0df; }
 
 .conteudo-lateral { background-color: #dfe0df; padding: 10px; margin-bottom: 20px; }
+
+.postagem-lateral { font-size: 0.8em; padding: 10px; border-bottom: 1px dotted #594317; }
+
+#area-rodape { clear: both; text-align: center; padding: 15px; background-color: #594317; color: #dfe0df; }
