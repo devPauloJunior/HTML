@@ -4,9 +4,9 @@ body { background-color: #051249; color: #ffffff; display: flex; flex-direction:
 
 .container-main { display: flex; justify-content: space-around; }
 
-.section-width1 { width: 40%; }
+.section-width1 { width: 40%; display: flex; flex-direction: column; align-items: flex-end; margin-right: 20px; }
 
-.section-width2 { width: 60%; }
+.section-width2 { width: 60%; display: flex; flex-direction: column; justify-content: space-between; }
 
 .div-width1 { width: 50%; height: 40vh; border-radius: 8px; background-color: #448fae; }
 
