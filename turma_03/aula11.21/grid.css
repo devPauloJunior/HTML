@@ -7,6 +7,6 @@ div { border: 2px solid black; }
 .content-bgcolor { background-color: #a349a3; }
 .footer-bgcolor { background-color: #ff7f26; }
 
-main { width: 60%; margin: 0px auto; display: grid; grid-template-columns: 0.5fr 1fr; grid-template-rows: 80px 50px repeat(1, 380px) 50px; grid-row-gap: 8px; grid-column-gap: 8px; }
+main { width: 60%; height: 100vh; margin: 0px auto; display: grid; grid-template-columns: 0.5fr 1fr; grid-template-rows: 15% 10% 55% 17%; grid-row-gap: 1%; grid-column-gap: 8px; }
 
 .grid-aling { grid-column-start: 1; grid-column-end: 3; }
