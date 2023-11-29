@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
 * { margin: 0px; padding: 0px; box-sizing: border-box; }
+
 .container { font-family: 'Poppins', sans-serif; display: grid; grid-template-rows: 700px 250px repeat(3, 450px) 100vh 100px;}
 
 .div-bg { background-image: url(./images/banner-bg.jpg); background-repeat: no-repeat; background-size: cover; display: grid; grid-template-rows: 150px 1fr; }
 
 /* INICIO DO NAV */
-nav { display: grid; grid-template-columns: repeat(2, 1fr); justify-content: space-between; align-items: center; padding-left: 60px; }
+nav { padding-left: 60px; display: grid; grid-template-columns: repeat(2, 1fr); justify-content: space-between; align-items: center; }
 
 ul { display: grid; grid-template-columns: 100px 100px 1fr 100px 100px; list-style: none; place-items: center;}
 
 li a { text-decoration: none !important; color: #ffffff; }
 
-header { color: #ffffff; display: grid;     padding-left: 60px;
+/* FIM DO NAV */
+/* INICIO DO HEADER */
+header { padding-left: 60px; color: #ffffff; display: grid; 
     grid-template-columns: 40% 60%;
     grid-template-rows: 150px 50px 150px 150px; align-items: end; 
     grid-template-areas: 
@@ -33,7 +36,7 @@ header { color: #ffffff; display: grid;     padding-left: 60px;
 
 .section-div {padding: 7.5%; display: inline-block; line-height: 90px; background-color: #0071f8; border-radius: 50%; width: 90px; height: 90px; text-align: center; margin-bottom: 25px; }
 
-.container-populares { display: grid; grid-template-areas: 
+.container-populares { padding-left: 60px; display: grid; grid-template-areas: 
     'popularesH6 popularesA'
     'popularesH2 popularesA'
     'popularesSECTION popularesSECTION'
