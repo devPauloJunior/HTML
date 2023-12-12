@@ -1,5 +1,27 @@
+/* 
+
+parte do index.html
+
 .largura { max-width: 500px; height: 300px; border: 2px dotted black; }
 
 .row { height: 100%; }
 
 .col-6, .col-3 { height: 25px; margin: 0px; }
+
+header { text-align: center; }
+
+.bi.bi-bell, .bi.bi-arrow-through-heart { font-size: 40px; color: green; margin: 2px; } */
+
+body { height: 100vh; width: 100vw; }
+
+.main { height: 500px; }
+
+.container-fluid { width: 100%; }
+
+footer { background-color: #1C1C1C; }
+
+a { text-decoration: none; }
+
+.largura { max-width: 600px; margin: 0px auto; }
+
+strong { color: brown; }
